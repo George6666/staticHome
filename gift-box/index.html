@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>礼遇盒子 - 精美礼品首页</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="礼遇盒子首页">
+      <span class="brand-mark">G</span>
+      <span>礼遇盒子</span>
+    </a>
+    <nav class="top-nav" aria-label="主导航">
+      <a href="#products">精选商品</a>
+      <a href="#channels">关注购买</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="精致礼品盒与鲜花香氛摆放在桌面"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Gift Studio</p>
+        <h1>礼遇盒子</h1>
+        <p>把香气、甜点、器物与心意装进一只漂亮盒子，为节日、商务拜访和日常惊喜准备体面的选择。</p>
+        <a class="primary-action" href="#products">浏览礼品</a>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="section-heading">
+        <p class="eyebrow">Curated Picks</p>
+        <h2>精选礼盒</h2>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="channels" id="channels">
+      <div class="channel-copy">
+        <p class="eyebrow">Follow & Shop</p>
+        <h2>关注与购买</h2>
+        <p>真实上线时，把下面链接替换成你的店铺、账号主页或二维码图片即可。</p>
+      </div>
+      <div class="channel-grid" id="channelGrid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 礼遇盒子</span>
+    <span>静态页面演示站</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
